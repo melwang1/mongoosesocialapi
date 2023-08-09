@@ -7,7 +7,7 @@ const {getUsers,
     delFriend,
     addFriend,
     createUser,
-} = require('../../Controllers/user-routes')
+} = require('../../controllers/user-routes')
 
 router.route("/").get(getUsers).post(createUser)
 router.route("/:userId").get(userById).put(updateUser).delete(delById)

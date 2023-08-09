@@ -11,7 +11,7 @@
     postReaction,
     delReaction,
     postThought
- } = require('../../Controllers/thoughts-routes')
+ } = require('../../controllers/thoughts-routes')
 
 
 
